@@ -1,7 +1,9 @@
 //inheritance basics
-//hierarchial inheritance 
-// 	A
-// B	C    D
+//hybrid inheritance 
+// A
+// B
+// C	     E
+// 	D
 
 #include<iostream>
 using namespace std;
@@ -26,7 +28,8 @@ class A
 		}
 };
 
-//Class B derived from class A
+//derived class one
+//derived from class A
 class B: public A
 {
 	int y;
@@ -47,12 +50,13 @@ class B: public A
 
 };
 
-//class C derived from class A
-class C: public A
+//Derived class two
+//derived from class B
+class C: public B
 {
 	int z;
 	public:
-		C(int a,int c):A(a)
+		C(int a,int b,int c):B(a,b)
 		{
 			cout<<"constr C"<<endl;
 			z=c;
@@ -66,12 +70,32 @@ class C: public A
                 	cout<<"z: "<<z<<endl;
        		}
 };
-//class D is derived from A 
-class D: public A	
+//Base class E
+class E
+{
+        int q;
+        public:
+        E(int e)
+        {
+                cout<<"constr E"<<endl;
+                q=e;
+        }
+        ~E()
+        {
+                cout<<"destr E"<<endl;
+        }
+        void get_data_E()
+        {
+                cout<<"q: "<<q<<endl;
+        }
+};
+//class D is derived from class C,class E 
+class D	: public C,public E
 {
 	int p;
 	public:
-	D(int a,int d):A(a)
+	//class E is independant so pass value seperate
+	D(int a,int b,int c,int d,int e):C(a,b,c),E(e)
 	{
 		cout<<"constr D"<<endl;
 		p=d;
@@ -85,22 +109,20 @@ class D: public A
 		cout<<"p: "<<p<<endl;
 	}
 };
-//there is no connection b/w B C and D class
+
 int main()
 {
-	D objd(10,20);
-	C objc(40,50);
-	B objb(70,80);
+	D objd(10,20,30,40,50);
 	
 	cout<<"size of A:"<<sizeof(A)<<endl;
 	cout<<"size of B:"<<sizeof(B)<<endl;
 	cout<<"size of C:"<<sizeof(C)<<endl;
 	cout<<"size of D:"<<sizeof(D)<<endl;
+	cout<<"size of E:"<<sizeof(E)<<endl;
 
 	objd.get_data_A();
-	objc.get_data_A();
-	objb.get_data_A();
+	objd.get_data_B();
+	objd.get_data_C();
 	objd.get_data_D();
-	objc.get_data_C();
-	objb.get_data_B();
+	objd.get_data_E();
 }
