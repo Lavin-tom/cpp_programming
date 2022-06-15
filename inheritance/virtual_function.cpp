@@ -3,6 +3,7 @@
 // 	A
 // B	    C
 //     D
+//virtual function- using virtual function avoid multi path problem, calling two directions
 
 #include<iostream>
 using namespace std;
@@ -28,7 +29,7 @@ class A
 };
 
 //Class B derived from class A
-class B: public A
+class B: virtual public A
 {
 	public:
 		int y; 	
@@ -49,7 +50,7 @@ class B: public A
 };
 
 //class C derived from class A
-class C: public A
+class C: virtual public A
 {
 	public:
 	int z;
@@ -84,9 +85,7 @@ class D: public B,public C
 	}
 	void get_data_D()
 	{
-		//cout<<"x: "<<x<<endl;	//error because,variable x is from b direction and c direction
-		cout<<"x: "<<B::x<<endl; //x value from B direction
-		cout<<"x: "<<C::x<<endl; //x value form C direction
+		cout<<"x: "<<x<<endl;	//now x get value only one time
 		cout<<"y: "<<y<<endl;
 		cout<<"z: "<<z<<endl;
 		cout<<"p: "<<p<<endl;
