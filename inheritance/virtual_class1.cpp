@@ -1,9 +1,10 @@
 //inheritance basics
 //multipath inheritance - Diamond
-// 	A
-// B	    C
-//     D
+// 	  A
+// B(virtual)	C
+//    	 D
 //virtual function
+//one side virtual 
 
 #include<iostream>
 using namespace std;
@@ -50,7 +51,7 @@ class B:virtual public A
 };
 
 //class C derived from class A
-class C:virtual public A
+class C:public A
 {
 	public:
 	int z;
@@ -85,7 +86,9 @@ class D: public B,public C
 	}
 	void get_data_D()
 	{
-		cout<<"x: "<<x<<endl;	//value of x came directly because of virtual
+		//cout<<"x: "<<x<<endl;	//value of x came directly because of virtual
+		cout<<"x: "<<B::x<<endl;
+		cout<<"x: "<<C::x<<endl;
 		cout<<"y: "<<y<<endl;
 		cout<<"z: "<<z<<endl;
 		cout<<"p: "<<p<<endl;
