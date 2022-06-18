@@ -36,7 +36,7 @@ class B: public A
 		}
 		//same function as in class A
 		//function overriding 
-		virtual void test2()				//virtual function because class A test2 is virtual 
+		void test2()				//virtual function because test 2 in base class A is virtual 
 		{
 			cout<<"test 2 B "<<endl;
 		}
@@ -52,9 +52,9 @@ class C: public A
 		{
 
 		}
-		virtual void test1()
+		void test1()
 		{
-			cout<<"test 1 C "<<endl;	//virtual function ,because in base class it is virtual 
+			cout<<"test 1 C "<<endl;	//virtual function ,because in base class A it is virtual 
 		}	
 		void test3()				//non-vertual function
 		{
