@@ -1,10 +1,10 @@
 //memory leak
-//
+
 #include<iostream>
 using namespace std;
 class A
 {
-	char s;
+	char *s;
 	public:
 	A()
 	{
@@ -17,8 +17,10 @@ class A
 		cout<<"destructor"<<endl;
 		delete [] s;
 	}
-}
+};
 int main()
 {
-	A obj;
+	A *ptr;
+	ptr = new A;
+	delete ptr;
 }
