@@ -1,4 +1,4 @@
-//bubble sort
+//insertion  sort
 
 #include <iostream>
 using namespace std;
@@ -15,17 +15,16 @@ void getArray(int arr[], int n){
     cout<<endl;
 }
 
-//bubble sort algorithm
-void bubbleSort(int arr[], int n){
-    int temp;
-    for (int i = 0; i < n; i++){
-	for (int j = 0; j < n-i-1; j++){
-	    if (arr[j] > arr[j+1]){
-		temp = arr[j];
-		arr[j] = arr[j+1];
-		arr[j+1] = temp;
-	    }
+//insertion sort algorithm
+void insertionSort(int arr[], int n){
+    for (int i = 1; i < n; i++){
+	    int temp = arr[i];
+	    int j = i-1;
+	while (j >= 0 && arr[j] > temp){
+	    arr[j+1] = arr[j];
+	    j--;
 	}
+	arr[j+1] = temp;
     }
 }
 int main(){
@@ -34,6 +33,6 @@ int main(){
     cin>>n;
     int arr[n];
     setArray(arr,n);
-    bubbleSort(arr, n);
+    insertionSort(arr, n);
     getArray(arr,n);
 }
