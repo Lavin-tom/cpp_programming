@@ -2,8 +2,11 @@
 
 
 #include <cstdio>
+#include <curses.h>
 #include<iostream>
 #include<unistd.h>
+#include<ncurses.h>
+#include<ctime>
 using namespace std;
 
 
@@ -17,13 +20,19 @@ void display(char grid[][10]){
 }
 
 int main(){
+    srand(time(NULL));
+    //initialize ncurses
+    initscr();
+    cbreak();
+    noecho();
+
     int size = 10;
     char grid[10][10];
     int sx,sy;	    //snake head
     int length = 2;
     int score = 0;
     int fruitx=5, fruity=5;
-    char dir;
+    //char dir;
 
     //basics structure
     for (int i=0; i<size; i++){
@@ -44,11 +53,11 @@ int main(){
     //grid[sx][sy+1] = '*';
     //grid[sx][sy+2] = '*';
 
-    while(1){
+    while(true){
 	
     grid[fruitx][fruity]='0';
 	//cin>>dir;
-	dir = getchar();
+	char dir = getch();
 	switch(dir){
 	    case 'w':
 		grid[x1][y1]=' ';
@@ -97,12 +106,17 @@ int main(){
 	}
 	if(sx == fruitx && sy == fruity){
 	    score++;
-	    fruitx = rand() % 10 + 1;
-	    fruity = rand() % 10 - 1;
+	    do{
+	        fruitx = rand() % 10 + 1;
+	        fruity = rand() % 10 - 1;
+	    }while(sx!=fruitx && sy!=fruity && sx!=0 && sx!=9 && sy!=0 && sy!=9);
 	}
 	system("clear");
 	display(grid);
 	cout<<"score: "<<score<<endl;
+	refresh();
 	usleep(1);
     }
+    endwin();
+    return 0;
 }
