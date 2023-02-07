@@ -1,5 +1,5 @@
 //snake game testing
-
+//not yet completed
 
 #include <cstdio>
 #include <curses.h>
