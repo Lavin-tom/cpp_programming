@@ -7,7 +7,7 @@ class student
 	//by using friend function we can access them
 	int roll;
 	char name[20];
-	friend int main();//grantig permission to main as friend
+	friend int main();//granting permission to main as friend
 };
 int main()
 {
