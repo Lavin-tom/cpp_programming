@@ -22,3 +22,5 @@ functions/recursion/multiple_file_execution/build/Debug/binarySearch.o
 functions/recursion/multiple_file_execution/myheader.exe
 coding_challenge/happy_no.exe
 functions/recursion/sum_of_digits.exe
+coding_challenge/testing_of_2d_array.exe
+coding_challenge/sort_array_based_on_first_raw_values.exe
