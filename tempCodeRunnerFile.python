@@ -1,0 +1,9 @@
+n = int(input("enter range"))
+f = 0
+s = 1
+print(f,'',s,end=' ')
+for i in range(n-2):
+    sum = f+s
+    print(sum, end =' ')
+    f = s
+    s = sum
