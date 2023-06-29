@@ -1,10 +1,10 @@
 //functions
-//call by value
-//swapping not done properly because here we use call by value
+//call by referance
+//swapping of two integers using call by referance concept
 
 #include<iostream>
 using namespace std;
-void swap(int a,int b)
+void swap(int &a,int &b)
 {
 	int temp;
 	temp=a;
@@ -18,7 +18,7 @@ int main()
 	cin>>n1>>n2;
 	
 	cout<<"no before swapping"<<endl;
-        cout<<"no1:"<<n1<<endl<<"no2:"<<n2<<endl;
+    cout<<"no1:"<<n1<<endl<<"no2:"<<n2<<endl;
 
 	swap(n1,n2);
 	cout<<"no after swapping"<<endl;
