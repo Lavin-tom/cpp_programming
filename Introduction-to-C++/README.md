@@ -50,7 +50,7 @@
 |Not have Exception Handling|Having exception handling|
 |Template is not available|Template is available|
 
-```
+```C++
 #include<iostream>
 using namespace std;
 int main()

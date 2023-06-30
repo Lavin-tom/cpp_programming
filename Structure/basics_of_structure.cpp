@@ -3,11 +3,14 @@
 
 #include<iostream>
 using namespace std;
-struct st
+struct abc
 {
-	private: int x;
-		 char ch;
-	public: void scan(){
+	private: 
+		int x;
+		char ch;
+	public: 
+		void scan()
+		{
 			cin>>x>>ch;
 		}
 		void display(){
@@ -16,7 +19,7 @@ struct st
 };
 int main()
 {
-	st s;
+	abc s;
 	cout<<"enter integer and character"<<endl;
 	s.scan();
 	s.display();

@@ -2,7 +2,7 @@
 
 To access global variable when there is local varibale with same. 
 
-``` 
+```C++
 example:
 
 #include<iostream>

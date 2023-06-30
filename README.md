@@ -10,6 +10,19 @@ The repository is organized into multiple directories, each focusing on a specif
 
 If you are new to C++ or programming in general, we recommend starting with the [Introduction to C++](https://github.com/Lavin-tom/cpp_programming/tree/master/Introduction-to-C++) directory. Here, you will find introductory topics, basic syntax, and fundamental programming concepts that will lay the groundwork for your C++ journey.
 
+## Topic Covered
+### Flow of Concepts
+-   [Introduction to C++](https://github.com/Lavin-tom/cpp_programming/tree/master/Introduction-to-C++)
+-   [Scope Resolution Operator](https://github.com/Lavin-tom/cpp_programming/tree/master/Scope_resolution_operator)
+-   [Reference Operator](https://github.com/Lavin-tom/cpp_programming/tree/master/Reference_operator)
+-   [Argument Passing](https://github.com/Lavin-tom/cpp_programming/tree/master/Argument_passing)
+-   [Namespace](https://github.com/Lavin-tom/cpp_programming/tree/master/Namespace)
+-   [Datatypes](https://github.com/Lavin-tom/cpp_programming/tree/master/Datatypes)
+-   [Function Overloading](https://github.com/Lavin-tom/cpp_programming/tree/master/Function_Overloading)
+-   [Inline Functions](https://github.com/Lavin-tom/cpp_programming/tree/master/Inline_functions)
+-   [Dynamic Memory Allocation](https://github.com/Lavin-tom/cpp_programming/tree/master/Dynamic_memory_allocation)
+-   [Structure](https://github.com/Lavin-tom/cpp_programming/tree/master/Structure)
+
 ## Start Learning C++ Today!
 
 We believe that learning programming should be an enjoyable and enriching experience. With this C++ Beginner's Repository, we hope to provide you with the necessary resources to kickstart your journey into the world of C++ programming. Happy coding!

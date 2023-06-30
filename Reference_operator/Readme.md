@@ -3,7 +3,7 @@
 Used to provide alias name/duplicate name for existing varibale.
 
 Syntax : `datatype &new_name = existing_name;`
-```
+```C++
 example: 
 
 #include<iostream>
@@ -24,7 +24,7 @@ x: 20
 #### Reference to Array
 Syntax : `datatype (&new_array)[size] = existing_array; `
 
-```
+```C++
 example: 
 
 #include<iostream>
@@ -45,7 +45,7 @@ output:
 #### Reference to Pointer
 Syntax : `datatype* (&new_variable) = existing_variable; `
 
-```
+```C++
 example: 
 
 #include<iostream>
