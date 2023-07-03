@@ -22,6 +22,7 @@ If you are new to C++ or programming in general, we recommend starting with the 
 -   [Inline Functions](https://github.com/Lavin-tom/cpp_programming/tree/master/Inline_functions)
 -   [Dynamic Memory Allocation](https://github.com/Lavin-tom/cpp_programming/tree/master/Dynamic_memory_allocation)
 -   [Structure](https://github.com/Lavin-tom/cpp_programming/tree/master/Structure)
+-   [Class](https://github.com/Lavin-tom/cpp_programming/tree/master/Class)
 
 ## Start Learning C++ Today!
 

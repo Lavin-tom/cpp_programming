@@ -94,4 +94,4 @@ By assigning a minimum size of 1 byte to an empty structure, the compiler ensure
 
 ---
 
-[Next](https://github.com/Lavin-tom/cpp_programming/tree/master/)
+[Next](https://github.com/Lavin-tom/cpp_programming/tree/master/Class)
