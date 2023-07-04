@@ -23,6 +23,15 @@ If you are new to C++ or programming in general, we recommend starting with the 
 -   [Dynamic Memory Allocation](https://github.com/Lavin-tom/cpp_programming/tree/master/Dynamic_memory_allocation)
 -   [Structure](https://github.com/Lavin-tom/cpp_programming/tree/master/Structure)
 -   [Class](https://github.com/Lavin-tom/cpp_programming/tree/master/Class)
+-   [Access Specifiers](https://github.com/Lavin-tom/cpp_programming/tree/master/Access_specifiers)
+-   [This Pointers](https://github.com/Lavin-tom/cpp_programming/tree/master/This_Pointer)
+-   [Friend Functions](https://github.com/Lavin-tom/cpp_programming/tree/master/Friend_fucntion)
+-   [Constructor](https://github.com/Lavin-tom/cpp_programming/tree/master/Constructor)
+-   [Copy Constructor](https://github.com/Lavin-tom/cpp_programming/tree/master/Constructor/copy_constructor)
+-   [Deep Copy](https://github.com/Lavin-tom/cpp_programming/tree/master/Constructor/copy_constructor)
+-   [Shallow Copy](https://github.com/Lavin-tom/cpp_programming/tree/master/Constructor/copy_constructor)
+-   [Dynamic Constructor](https://github.com/Lavin-tom/cpp_programming/tree/master/Constructor/dynamic_constructor)
+
 
 ## Start Learning C++ Today!
 
