@@ -36,4 +36,4 @@ While this approach gives flexibility in managing objects' lifetimes explicitly,
 
 ---
 
-[Back](https://github.com/Lavin-tom/cpp_programming/tree/master/Constructor)
+[Back](https://github.com/Lavin-tom/cpp_programming/tree/master/Destructor)

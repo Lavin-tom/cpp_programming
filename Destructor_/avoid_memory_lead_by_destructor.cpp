@@ -1,7 +1,7 @@
 //destructor 
 //to destroy the object
 //both constructor and destructor are called automatically when object is created
-//to avoid memory leak we use destructor
+//use destructor to avoid memory leak 
 
 #include<iostream>
 using namespace std;
