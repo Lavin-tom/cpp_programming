@@ -1,5 +1,5 @@
 //static member function
-//declartion should be inside the class. and definiton outside the class.
+//declartion should be inside the class. and definition outside the class.
 //memory is created in data section
 
 #include<iostream>

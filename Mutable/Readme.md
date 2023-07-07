@@ -31,3 +31,7 @@ private:
 ```
 
 `mutableValue` member variable is declared using the mutable keyword. This allows it to be modified even within const member functions like setValue() and getValue(). Without the mutable keyword, attempting to modify the member variable within a const member function would result in a compilation error.
+
+---
+
+[Next](https://github.com/Lavin-tom/cpp_programming/tree/master/Static_member_function)
