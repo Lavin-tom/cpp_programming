@@ -29,12 +29,15 @@ If you are new to C++ or programming in general, we recommend starting with the 
 -   [Constructor](https://github.com/Lavin-tom/cpp_programming/tree/master/Constructor)
 -   [Constructor Overloading](https://github.com/Lavin-tom/cpp_programming/tree/master/Constructor/constructor_overloading)
 -   [Copy Constructor](https://github.com/Lavin-tom/cpp_programming/tree/master/Constructor/copy_constructor)
+-   [Member Variable Initialization](https://github.com/Lavin-tom/cpp_programming/tree/master/Member_variable_initialization)
 -   [Deep Copy](https://github.com/Lavin-tom/cpp_programming/tree/master/Constructor/copy_constructor)
 -   [Shallow Copy](https://github.com/Lavin-tom/cpp_programming/tree/master/Constructor/copy_constructor)
 -   [Dynamic Constructor](https://github.com/Lavin-tom/cpp_programming/tree/master/Constructor/dynamic_constructor)
 -   [Destructor](https://github.com/Lavin-tom/cpp_programming/tree/master/Destructor)
 -   [Constant Member function](https://github.com/Lavin-tom/cpp_programming/tree/master/Constant_member_function)
 -   [Mutable](https://github.com/Lavin-tom/cpp_programming/tree/master/Mutable)
+-   [Static Member Function](https://github.com/Lavin-tom/cpp_programming/tree/master/Static_Member_function)
+-   [Operator Overloading](https://github.com/Lavin-tom/cpp_programming/tree/master/Opereator_overloading)
 
 
 ## Start Learning C++ Today!

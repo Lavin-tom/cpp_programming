@@ -63,4 +63,4 @@ If changes are made to `str` in one object (e.g., modifying it or deallocating i
 To achieve deep copy semantics, we need to implement a custom copy constructor
 
 ---
-[Back](https://github.com/Lavin-tom/cpp_programming/tree/master/Constructor/dynamic_constructor)
+[Next](https://github.com/Lavin-tom/cpp_programming/tree/master/Member_variable_initialization)
