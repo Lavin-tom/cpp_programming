@@ -80,7 +80,13 @@ Additionally, the << operator is overloaded as a friend function to allow easy o
 
 The main() function demonstrates the usage of these overloaded operators with Vector objects.
 
+<<<<<<< Updated upstream
 I hope this helps you understand operator overloading in C++. Let me know if you have any further questions!
 ---
 
 [Next](https://github.com/Lavin-tom/cpp_programming/tree/master/)
+=======
+---
+
+[Next](https://github.com/Lavin-tom/cpp_programming/tree/master/Singleton_class)
+>>>>>>> Stashed changes

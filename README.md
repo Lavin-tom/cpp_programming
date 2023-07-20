@@ -38,6 +38,10 @@ If you are new to C++ or programming in general, we recommend starting with the 
 -   [Mutable](https://github.com/Lavin-tom/cpp_programming/tree/master/Mutable)
 -   [Static Member Function](https://github.com/Lavin-tom/cpp_programming/tree/master/Static_Member_function)
 -   [Operator Overloading](https://github.com/Lavin-tom/cpp_programming/tree/master/Opereator_overloading)
+<<<<<<< Updated upstream
+=======
+-   [Singleton Class](https://github.com/Lavin-tom/cpp_programming/tree/master/Singleton_class)
+>>>>>>> Stashed changes
 
 
 ## Start Learning C++ Today!

@@ -33,7 +33,7 @@ int main()
 {
 	student obj1(10),obj2;
 	obj1.get_data();
-	obj2=obj1++;			//first assign the value and then decrement
+	obj2=obj1++;			//first assign the value and then increment
 	obj1.get_data();		//obj2=obj1.operator++(0);
 	obj2.get_data();
 }

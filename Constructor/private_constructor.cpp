@@ -2,7 +2,7 @@
 //if we create constructor in private, object can't create outside the class.
 //so we can create object inside the class. 
 //but we can't call the create_object function without object, so we use static
-//a class contain only one class is called - Singleton class.
+//a class contain only one object is called - Singleton class.
 //if we create constructor as private one function should be static , because static functions can call the function without 
 //object
 //static functions can access only static members only, can't access a non static members

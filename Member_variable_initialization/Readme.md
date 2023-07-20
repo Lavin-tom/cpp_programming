@@ -60,4 +60,10 @@ These are some common ways to initialize member variables in C++. It's generally
 
 ---
 
+<<<<<<< Updated upstream
 [Next](https://github.com/Lavin-tom/cpp_programming/tree/master/Constructor/copy_constructor)
+=======
+[Next](https://github.com/Lavin-tom/cpp_programming/tree/master/Constructor/dynamic_constructor)
+[Deep Copy](https://github.com/Lavin-tom/cpp_programming/tree/master/Constructor/copy_constructor)
+[Shallow Copy](https://github.com/Lavin-tom/cpp_programming/tree/master/Constructor/copy_constructor)
+>>>>>>> Stashed changes

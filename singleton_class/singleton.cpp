@@ -17,9 +17,9 @@ class singleton
 	public:
 	static singleton * create_object()	//static function
 	{
-		//class is creating only one time
+		//only one time class is creating
 		if(single==0)
-		single=new singleton;		//dma
+			single=new singleton;		//dma
 		return single;
 	}
 };
