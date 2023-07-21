@@ -38,7 +38,11 @@ If you are new to C++ or programming in general, we recommend starting with the 
 -   [Mutable](https://github.com/Lavin-tom/cpp_programming/tree/master/Mutable)
 -   [Static Member Function](https://github.com/Lavin-tom/cpp_programming/tree/master/Static_Member_function)
 -   [Operator Overloading](https://github.com/Lavin-tom/cpp_programming/tree/master/Opereator_overloading)
--   [Singleton Class](https://github.com/Lavin-tom/cpp_programming/tree/master/Singleton_class)
+-   [Singleton Class](https://github.com/Lavin-tom/cpp_programming/tree/master/Singleton_Class)
+-   [Exception Handling](https://github.com/Lavin-tom/cpp_programming/tree/master/Exception_Handling)
+-   [Mode Of Inheritance](https://github.com/Lavin-tom/cpp_programming/tree/master/Inheritance/Mode_of_inheritance)
+-   [Empty Base Optimization](https://github.com/Lavin-tom/cpp_programming/tree/master/Inheritance/Empty_base_optimization)
+-   [Virtual Function](https://github.com/Lavin-tom/cpp_programming/tree/master/Inheritance/Virtual_class)
 
 ## Start Learning C++ Today!
 

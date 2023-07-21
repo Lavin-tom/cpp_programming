@@ -1,8 +1,8 @@
 //inheritance basics
 //multipath inheritance - Diamond
-// 	A
-// B	    C
-//     D
+// 	 / A \
+// B	   C
+//   \ D /
 //virtual function
 
 #include<iostream>

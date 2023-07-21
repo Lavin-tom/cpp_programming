@@ -2,8 +2,6 @@
 
 Operator overloading is to redefine the behavior of operators for user-defined types. It enables you to use operators such as +, -, *, /, etc., with objects of your own classes.
 
-Here's an example that demonstrates operator overloading for a simple class called Vector:
-
 ```cpp
 #include <iostream>
 using namespace std;
@@ -69,7 +67,7 @@ int main() {
 }
 ```
 
-In this example, the Vector class overloads several operators:
+In above example, the Vector class overloads several operators:
 
 The + operator is overloaded to perform vector addition.
 The - operator is overloaded to perform vector subtraction.
@@ -80,13 +78,5 @@ Additionally, the << operator is overloaded as a friend function to allow easy o
 
 The main() function demonstrates the usage of these overloaded operators with Vector objects.
 
-<<<<<<< Updated upstream
-I hope this helps you understand operator overloading in C++. Let me know if you have any further questions!
----
-
-[Next](https://github.com/Lavin-tom/cpp_programming/tree/master/)
-=======
----
-
-[Next](https://github.com/Lavin-tom/cpp_programming/tree/master/Singleton_class)
->>>>>>> Stashed changes
+--- 
+[Next](https://github.com/Lavin-tom/cpp_programming/tree/master/Singleton_Class)

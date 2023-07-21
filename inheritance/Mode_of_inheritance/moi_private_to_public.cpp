@@ -1,11 +1,12 @@
 //inheritance basics
-//Mode of inheritance - private to private 
+//Mode of inheritance - private 
 
 #include<iostream>
 using namespace std;
 class base
 {
-		int x;	
+	//now x is private
+		int x;
 	public:	
 		void set_base()
 		{
@@ -17,8 +18,7 @@ class base
 			cout<<"x: "<<x<<endl;
 		}
 };
-//inherit private to private
-class derived: private base
+class derived: public base
 {
 	public: 	
 		int y;
@@ -26,8 +26,8 @@ class derived: private base
 		{
 			cout<<"enter y"<<endl;
 			cin>>y;
-			//cin>>x;		//not possible to x,because not inherited
-			set_base();		//method to assign valid data to x.
+			//cin>>x;		//not possible to x,because x is not inherited
+			set_base();		//method to assign valid data to x, because set_base is member function.
 		}
 		void get_derived()
 		{
@@ -41,11 +41,11 @@ int main()
 	derived d1;
 	cout<<"size of base1 :"<<sizeof(base)<<endl;
 	cout<<"size of derived :"<<sizeof(derived)<<endl;
-	//b1.x=200;		//nor possible, because of x is private
-	b1.set_base();		//method to assign valid data to x,x is in public
+	//b1.x=200;			//not possible, because of x is private
+	b1.set_base();		//valid instr to assign valid data to x ,member function can access private
 	
-	//d1.x=300;		//x is not inherited, so can't access in main	
+	//d1.x=300;			//x is not inherit,because x is private	
 				
-	//d1.set_base();	//not possible, because inherited to private section
+	//d1.set_base();	//possible , set_base is public
 	d1.set_derived();
 }
