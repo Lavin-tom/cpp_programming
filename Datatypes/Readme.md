@@ -71,23 +71,45 @@ Unlike fixed-size character arrays, string can dynamically grow or shrink to acc
 - Easy Initialization:
 You can initialize an string using various methods:
 
-  - Direct initialization: string str = "Hello";
-  - Copy initialization: string str("Hello");
-  - Assignment: string str; str = "Hello";
+  - Direct initialization:
+    ```cpp
+        string str = "Hello";
+  - Copy initialization:
+    ```cpp
+        string str("Hello");
+  - Assignment:
+    ```cpp
+        string str;
+        str = "Hello";
 
 - String Operations: 
 string provides a wide range of member functions for common string operations, including:
 
-    - Accessing individual characters: str[i], str.at(i)
-    - Concatenation: str1 + str2, str1.append(str2)
-    - Length: str.length(), str.size()
-    - Substring extraction: str.substr(startIndex, length)
-    - Searching for substrings: str.find(substring), str.rfind(substring)
-    - Modifying strings: str.replace(), str.erase(), str.insert()
-    - Comparison: str1 == str2, str1 < str2, etc.
+    - Accessing individual characters:
+      ```cpp
+      str[i], str.at(i)
+    - Concatenation:
+      ```cpp
+      str1 + str2, str1.append(str2)
+    - Length:
+      ```cpp
+      str.length(), str.size()
+    - Substring extraction:
+      ```cpp
+      str.substr(startIndex, length)
+    - Searching for substrings:
+      ```cpp
+      str.find(substring), str.rfind(substring)
+    - Modifying strings:
+      ```cpp
+      str.replace(), str.erase(), str.insert()
+    - Comparison:
+      ```cpp
+      str1 == str2, str1 < str2, etc.
+      
 - String Input and Output:
 string can be easily read from and written to the standard input/output streams using the familiar `>>` and `<<` operators.
 
 
 ---
-[Next](https://github.com/Lavin-tom/cpp_programming/tree/master/Function_overloading)
+[Namespace](https://github.com/Lavin-tom/cpp_programming/tree/master/Namespace) | [Function Overloading](https://github.com/Lavin-tom/cpp_programming/tree/master/Function_overloading)
