@@ -30,5 +30,4 @@ int main() {
 
 ```
 ---
-
-[Next](https://github.com/Lavin-tom/cpp_programming/tree/master/Inline_functions)
+[Datatypes](https://github.com/Lavin-tom/cpp_programming/tree/master/Datatypes) | [Inline Functions](https://github.com/Lavin-tom/cpp_programming/tree/master/Inline_functions)
