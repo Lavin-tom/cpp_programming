@@ -77,4 +77,4 @@ int main()
 
 ---
 
-[Next](https://github.com/Lavin-tom/cpp_programming/tree/master/Scope_resolution_operator)
+[Scope Resolution Operator](https://github.com/Lavin-tom/cpp_programming/tree/master/Scope_resolution_operator)
